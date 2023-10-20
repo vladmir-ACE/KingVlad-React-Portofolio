@@ -1,0 +1,35 @@
+.navbar-brand {
+    font-size: 24px; /* Réduire la taille de la police pour les écrans plus petits */
+}
+
+.emoji {
+    font-size: 24px; /* Réduire la taille de la police pour les écrans plus petits */
+}
+
+/* Rendre les cartes plus flexibles */
+.card-containt .card {
+    flex: 0 0 calc(33.333% - 20px); /* Utilisez la flexbox pour les disposer en 3 colonnes */
+    margin: 10px;
+}
+
+/* Styles pour les écrans de petite taille */
+@media (max-width: 767px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .emoji {
+        font-size: 20px;
+    }
+}
+
+/* Styles pour les écrans de taille moyenne */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        font-size: 28px;
+    }
+
+    .emoji {
+        font-size: 28px;
+    }
+}
